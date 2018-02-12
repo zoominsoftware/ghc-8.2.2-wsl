@@ -8,7 +8,7 @@ It was built on native Ubuntu 16.04 - not WSL - using
 
 `./configure --disable-large-address-space`
 
-to work around Microsoft/WSL#1671 and
+to work around [Microsoft/WSL#1671](https://github.com/Microsoft/WSL/issues/1671) and
 [GHC Trac #13304](https://ghc.haskell.org/trac/ghc/ticket/13304).
 
 The instructions for installation are the same as for the usual GHC
