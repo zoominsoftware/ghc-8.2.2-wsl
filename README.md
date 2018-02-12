@@ -11,7 +11,14 @@ It was built on native Ubuntu 16.04 - not WSL - using
 to work around [Microsoft/WSL#1671](https://github.com/Microsoft/WSL/issues/1671) and
 [GHC Trac #13304](https://ghc.haskell.org/trac/ghc/ticket/13304).
 
-The instructions for installation are the same as for the usual GHC
+To work around the large file size limit on GitHub, the tarball has been split
+into two pieces. Before installing it, run the command
+
+`cat ghc-8.2.2-x86_64-unknown-linux-wsl.tar.xz.* > ghc-8.2.2-x86_64-unknown-linux-wsl.tar.xz`
+
+(We may switch to [Git LFS](https://git-lfs.github.com) some day.)
+
+After that, the instructions for installation are the same as for the usual GHC
 binary installation tarballs. See the file INSTALL inside the tarball
 for details.
 
