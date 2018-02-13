@@ -14,7 +14,7 @@ to work around [Microsoft/WSL#1671](https://github.com/Microsoft/WSL/issues/1671
 To work around the large file size limit on GitHub, the tarball has been split
 into two pieces. Before installing it, run the command
 
-`cat ghc-8.2.2-x86_64-unknown-linux-wsl.tar.xz.* > ghc-8.2.2-x86_64-unknown-linux-wsl.tar.xz`
+`cat ghc-8.2.2-x86_64-unknown-linux-wsl.tar.xz.0* > ghc-8.2.2-x86_64-unknown-linux-wsl.tar.xz`
 
 (We may switch to [Git LFS](https://git-lfs.github.com) some day.)
 
